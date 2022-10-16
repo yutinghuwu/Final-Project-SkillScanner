@@ -42,11 +42,12 @@ Considering that Supervised Learning techniques are used in classification model
       * XGBoost
 See notebook `ML_modeling.ipynb`.
 
-### 2.4. Develop a product that is able to: 
-    * Scan the skills from a given Linkedin profile.
-    * Identify in-demand skills in Data industry.
-    * Predict how this profile fits in each of the 3 job roles.  
-Do you want to scan your profile? Test it by using notebook `SkillScanner_production.ipynb` 
+### 2.4. Develop a product that is able to:
+* Scan the skills from a given Linkedin profile.
+* Identify in-demand skills in Data industry.
+* Predict how this profile fits in each of the 3 job roles.  
+
+Do you want to scan your profile? Test it by using notebook `SkillScanner_production.ipynb`. 
 
 ## 3. Technology Stack 💻
 * Programming Language:
