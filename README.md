@@ -98,7 +98,6 @@ Do you want to scan your profile? Test it by using notebook `SkillScanner_produc
 ```
 └── Final-Project-SkillScanner
     ├── assets
-    │   ├── model_metrics.PNG
     │   ├── oval.png
     │   ├── SkillScanner_demo.gif
     │   ├── SkillScanner_logo.png
