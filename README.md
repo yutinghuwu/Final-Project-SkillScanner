@@ -1,6 +1,7 @@
 # Final-Project-SkillScanner
 
 ![assets](assets/SkillScanner_logo.png)
+![assets](assets/wordcloud.png)
 
 ## 1. Preamble 🏃
 
