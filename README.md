@@ -1,40 +1,3 @@
-# Folder structure 📁
-```
-└── Final-Project-SkillScanner
-    ├── assets
-    │   ├── model_metrics.PNG
-    │   ├── oval.png
-    │   ├── SkillScanner_demo.gif
-    │   ├── SkillScanner_logo.png
-    │   ├── wordcloud.png
-    ├── functions
-    │   ├── Main_functions.py
-    │   ├── Modeling_functions.py
-    │   ├── Production_v4.py
-    ├── notebook
-    │   ├── Get_skills.ipynb
-    │   ├── Jobs_scrapping.ipynb
-    │   ├── ML_modeling.ipynb
-    │   ├── SkillScanner_production.ipynb
-    ├── output
-    │   ├── all_data_jobs.csv
-    │   ├── best_model_3.pkl
-    │   ├── finalized_model_3.pkl
-    │   ├── jobs_data.pkl
-    │   ├── models_results_3.csv
-    │   ├── profiles_data.csv
-    │   ├── profiles_data.pkl
-    │   ├── profiles_us.csv
-    │   ├── profiles_us.pkl
-    │   ├── skills_data_var.csv
-    │   ├── skills_data_var.pkl
-    │   ├── variables_distribution.csv
-    │   ├── xgb_model.pkl
-    ├── ppt
-    │   ├── SkillScanner_Project_presentation_final.pdf  
-    ├── README.md
-```
-
 # Final-Project-SkillScanner
 
 ![assets](assets/SkillScanner_logo.png)
@@ -130,3 +93,40 @@ Do you want to scan your profile? Test it by using notebook `SkillScanner_produc
 ## 5. SkillScanner User Interface
 
 ![assets](assets/SkillScanner_demo.gif)
+
+# Folder structure 📁
+```
+└── Final-Project-SkillScanner
+    ├── assets
+    │   ├── model_metrics.PNG
+    │   ├── oval.png
+    │   ├── SkillScanner_demo.gif
+    │   ├── SkillScanner_logo.png
+    │   ├── wordcloud.png
+    ├── functions
+    │   ├── Main_functions.py
+    │   ├── Modeling_functions.py
+    │   ├── Production_v4.py
+    ├── notebook
+    │   ├── Get_skills.ipynb
+    │   ├── Jobs_scrapping.ipynb
+    │   ├── ML_modeling.ipynb
+    │   ├── SkillScanner_production.ipynb
+    ├── output
+    │   ├── all_data_jobs.csv
+    │   ├── best_model_3.pkl
+    │   ├── finalized_model_3.pkl
+    │   ├── jobs_data.pkl
+    │   ├── models_results_3.csv
+    │   ├── profiles_data.csv
+    │   ├── profiles_data.pkl
+    │   ├── profiles_us.csv
+    │   ├── profiles_us.pkl
+    │   ├── skills_data_var.csv
+    │   ├── skills_data_var.pkl
+    │   ├── variables_distribution.csv
+    │   ├── xgb_model.pkl
+    ├── ppt
+    │   ├── SkillScanner_Project_presentation_final.pdf  
+    ├── README.md
+```
