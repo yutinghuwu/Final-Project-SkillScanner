@@ -128,8 +128,12 @@ Do you want to scan your profile? Test it by using notebook `SkillScanner_produc
     * Confusion Matrix
 
 Summary of Models Evaluation Metrics:
+
+
 ![assets](assets/model_metrics.PNG)
 
 
 ## 4. SkillScanner User Interface
+
+
 ![assets](assets/SkillScanner_demo.gif)
