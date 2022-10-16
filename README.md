@@ -22,11 +22,11 @@ In this project, we studied the skills for the three most in demand job roles th
 
 A total of 1842 data profiles were scrapped from Linkedin (73% were data scientist) via API Rest.
 After Top50 skills per each job category were extracted, we got a total of 80 different skills.
-Refer to notebook "Get_skills.ipynb".
+Refer to notebook `Get_skills.ipynb`.
 
 ### 2.2 Provide data-driven insights by means of Exploratory Data Analysis.
 
-For this project step, data with job offers information was scrapped from Glassdoor resulting in a dataframe of 12782 rows and 16 columns. See notebook "Jobs_scrapping.ipynb"
+For this project step, data with job offers information was scrapped from Glassdoor resulting in a dataframe of 12782 rows and 16 columns. See notebook `Jobs_scrapping.ipynb`.
 
 ### 2.3. Build Machine Learning models to make a prediction of how a profile fits in each of the job roles.
 The predictions are made based on Machine Learning models, which can generate predictions by using skills data extracted from Linkedin and job announcements posted by employers in Glassdoor. 
@@ -40,13 +40,15 @@ Considering that Supervised Learning techniques are used in classification model
   * Gradient Boosting Trees:
       * Gradient Boosting Classifier
       * XGBoost
-      
+See notebook `ML_modeling.ipynb`.
+
 ### 2.4. Develop a product that is able to: 
     * Scan the skills from a given Linkedin profile.
     * Identify in-demand skills in Data industry.
     * Predict how this profile fits in each of the 3 job roles.  
-    
-## 3. Technology Stack
+Do you want to scan your profile? Test it by using notebook `SkillScanner_production.ipynb` 
+
+## 3. :computer: Technology Stack 
 * Programming Language:
     * Python
 * General libraries:
@@ -61,9 +63,45 @@ Considering that Supervised Learning techniques are used in classification model
 * EDA & Visualization: 
     * Pandas Profiling
     * Plotly Express
-    * Dash
 * Predictive Modeling
     * Scikit-Learn
+
+### :file_folder: Folder structure
+```
+└── Final-Project-SkillScanner
+    ├── assets
+    │   ├── model_metrics.PNG
+    │   ├── oval.png
+    │   ├── SkillScanner_demo.gif
+    │   ├── SkillScanner_logo.png
+    │   ├── wordcloud.png
+    ├── functions
+    │   ├── Main_functions.py
+    │   ├── Modeling_functions.py
+    │   ├── Production_v4.py
+    ├── notebook
+    │   ├── Get_skills.ipynb
+    │   ├── Jobs_scrapping.ipynb
+    │   ├── ML_modeling.ipynb
+    │   ├── SkillScanner_production.ipynb
+    ├── output
+    │   ├── all_data_jobs.csv
+    │   ├── best_model_3.pkl
+    │   ├── finalized_model_3.pkl
+    │   ├── jobs_data.pkl
+    │   ├── models_results_3.csv
+    │   ├── profiles_data.csv
+    │   ├── profiles_data.pkl
+    │   ├── profiles_us.csv
+    │   ├── profiles_us.pkl
+    │   ├── skills_data_var.csv
+    │   ├── skills_data_var.pkl
+    │   ├── variables_distribution.csv
+    │   ├── xgb_model.pkl
+    ├── ppt
+    │   ├── SkillScanner_Project_presentation_final.pdf  
+    ├── README.md
+```
 
 ## 4. Classifications Models Process
 * Feature Engineering
@@ -90,6 +128,7 @@ Considering that Supervised Learning techniques are used in classification model
 
 Summary of Models Evaluation Metrics:
 ![assets](assets/model_metrics.PNG)
+
 
 ## 4. SkillScanner User Interface
 ![assets](assets/SkillScanner_demo.gif)
