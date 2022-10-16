@@ -15,7 +15,7 @@ As a result of this proliferation of skills, companies need to identify the diff
 ## 2. Project Overview
 In this project, we studied the skills for the three most in demand job roles that have emerged in the recent years across data industry, with the following objectives:
 
-2.1. Identify each role skills**, which will serve as input for the supervised classification algorithms, for following roles:
+### 2.1. Identify each role skills, which will serve as input for the supervised classification algorithms, for following roles:
     * Data Analysis
     * Data Science
     * Data Engineering
@@ -24,11 +24,11 @@ A total of 1842 data profiles were scrapped from Linkedin (73% were data scienti
 After Top50 skills per each job category were extracted, we got a total of 80 different skills.
 Refer to notebook "Get_skills.ipynb".
 
-2.2 Provide data-driven insights by means of Exploratory Data Analysis.
+### 2.2 Provide data-driven insights by means of Exploratory Data Analysis.
 
 For this project step, data with job offers information was scrapped from Glassdoor resulting in a dataframe of 12782 rows and 16 columns. See notebook "Jobs_scrapping.ipynb"
 
-2.3. Build Machine Learning models to make a prediction of how a profile fits in each of the job roles.
+### 2.3. Build Machine Learning models to make a prediction of how a profile fits in each of the job roles.
 The predictions are made based on Machine Learning models, which can generate predictions by using skills data extracted from Linkedin and job announcements posted by employers in Glassdoor. 
 
 Considering that Supervised Learning techniques are used in classification models, and among the several algorithms for supervised classification of texts, the following algorithms were used to build the prediction models:
@@ -41,7 +41,7 @@ Considering that Supervised Learning techniques are used in classification model
       * Gradient Boosting Classifier
       * XGBoost
       
-2.4. Develop a product that is able to: 
+### 2.4. Develop a product that is able to: 
     * Scan the skills from a given Linkedin profile.
     * Identify in-demand skills in Data industry.
     * Predict how this profile fits in each of the 3 job roles.  
