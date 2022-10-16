@@ -53,9 +53,9 @@ As a result of this proliferation of skills, companies need to identify the diff
 In this project, we studied the skills for the three most in demand job roles that have emerged in the recent years across data industry, with the following objectives:
 
 ### 2.1. Identify each role skills, which will serve as input for the supervised classification algorithms, for following roles:
-    * Data Analysis
-    * Data Science
-    * Data Engineering
+* Data Analysis
+* Data Science
+* Data Engineering
 
 A total of 1842 data profiles were scrapped from Linkedin (73% were data scientist) via API Rest.
 After Top50 skills per each job category were extracted, we got a total of 80 different skills.
