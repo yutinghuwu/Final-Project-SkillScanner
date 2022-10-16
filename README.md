@@ -1,6 +1,4 @@
 # Final-Project-SkillScanner
-
-![assets](assets/SkillScanner_logo.png)
 ![assets](assets/wordcloud.png)
 
 ## 1. Preamble 🏃
@@ -49,6 +47,8 @@ See notebook `ML_modeling.ipynb`.
 * Predict how this profile fits in each of the 3 job roles.  
 
 Do you want to scan your profile? Test it by using notebook `SkillScanner_production.ipynb`. 
+
+![assets](assets/SkillScanner_logo.png)
 
 ## 3. Technology Stack 💻
 * Programming Language:
