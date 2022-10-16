@@ -2,7 +2,7 @@
 
 ![assets](assets/SkillScanner_logo.png)
 
-## 1. Preamble
+## 1. Preamble 🏃
 
 Back in 2012, Harvard Business Review declared: [“Data Scientist: The Sexiest Job of the 21st Century.”](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century). But a decade later, [is Data Scientist Still the Sexiest Job of the 21st Century?](https://hbr.org/2022/07/is-data-scientist-still-the-sexiest-job-of-the-21st-century)
 
@@ -12,7 +12,7 @@ The assumption in 2012 was that data scientists could do all required tasks in a
 
 As a result of this proliferation of skills, companies need to identify the different roles and skills required to effectively deploy data science models in their businesses.
 
-## 2. Project Overview
+## 2. Project Objective 💥 
 In this project, we studied the skills for the three most in demand job roles that have emerged in the recent years across data industry, with the following objectives:
 
 ### 2.1. Identify each role skills, which will serve as input for the supervised classification algorithms, for following roles:
@@ -48,7 +48,7 @@ See notebook `ML_modeling.ipynb`.
     * Predict how this profile fits in each of the 3 job roles.  
 Do you want to scan your profile? Test it by using notebook `SkillScanner_production.ipynb` 
 
-## 3. :computer: Technology Stack 
+## 3. Technology Stack 💻
 * Programming Language:
     * Python
 * General libraries:
@@ -66,7 +66,7 @@ Do you want to scan your profile? Test it by using notebook `SkillScanner_produc
 * Predictive Modeling
     * Scikit-Learn
 
-### :file_folder: Folder structure
+## 4. Folder structure 📁
 ```
 └── Final-Project-SkillScanner
     ├── assets
@@ -103,7 +103,7 @@ Do you want to scan your profile? Test it by using notebook `SkillScanner_produc
     ├── README.md
 ```
 
-## 4. Classifications Models Process
+## 4. Summary of Classifications Models Process
 * Feature Engineering
     * Label Assignation
     * Feature Encoding
