@@ -39,6 +39,7 @@ Considering that Supervised Learning techniques are used in classification model
   * Gradient Boosting Trees:
       * Gradient Boosting Classifier
       * XGBoost
+
 See notebook `ML_modeling.ipynb`.
 
 ### 2.4. Develop a product that is able to:
