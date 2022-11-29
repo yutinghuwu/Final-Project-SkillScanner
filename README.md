@@ -51,6 +51,8 @@ Do you want to scan your profile? Test it by using notebook `SkillScanner_produc
 
 ![assets](assets/SkillScanner_logo.png)
 
+![assets](assets/SkillScanner_demo.gif)
+
 ## 3. Technology Stack 💻
 * Programming Language:
     * Python
@@ -92,9 +94,7 @@ Do you want to scan your profile? Test it by using notebook `SkillScanner_produc
     * Results comparison and evaluation
     * Confusion Matrix
 
-## 5. SkillScanner User Interface
 
-![assets](assets/SkillScanner_demo.gif)
 
 # Folder structure 📁
 ```
