@@ -95,7 +95,6 @@ Do you want to scan your profile? Test it by using notebook `SkillScanner_produc
     * Confusion Matrix
 
 
-
 # Folder structure 📁
 ```
 └── Final-Project-SkillScanner
